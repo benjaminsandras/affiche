@@ -1,31 +1,114 @@
 
 $("#g10015").attr('data-toggle', 'modal').attr('data-target', '#modal_activities').attr('class', 'animated').attr('class', 'pulse')
 
-// $( "#path7689" ).hover(function() {
-// 	$( "#path7689" ).toggle( "scale" , { percent: "90%" },500);
-// 	// scaleUp(this, "200px")
+$("#text10025").attr('data-toggle', 'modal').attr('data-target', '#modal_activities').attr('class', 'animated').attr('class', 'pulse')
 
-// } )
 
-$( "#path7689" ).hover(function() {
-	$( "#path7689" ).addClass('animate');
-	// scaleUp(this, "200px")
+$( "#path10013" ).hover(function() {
+	$( "#path10013" ).addClass('animate');
+	$( "#path10001" ).addClass('animate');
+	
 } )
 
-$( "#path7689" ).mouseout(function() {
-	$( "#path7689" ).removeClass('animate');
-	// scaleUp(this, "200px")
+$( "#path10013" ).mouseout(function() {
+	$( "#path10013" ).removeClass('animate');
+	$( "#path10001" ).removeClass('animate');
+
 } )
 
-// $( "#path7689" ).mouseover(function() {
-// 	$( "#path7689" ).toggle( "scale" )
-// } )
-// ​
-// $( "#path7689" ).mouseout(function() {
-// 	$( "#path7689" ).show( "scale")
+$( "#text10025" ).hover(function() {
+	$( "#path10013" ).addClass('animate');
+	$( "#path10001" ).addClass('animate');
+	
+} )
+
+$( "#text10025" ).mouseout(function() {
+	$( "#path10013" ).removeClass('animate');
+	$( "#path10001" ).removeClass('animate');
+
+} )
+
+
+function zoom($id, $class){
+	
+	$( $id ).hover(function() {
+		$( $id ).addClass($class);
+		$( $id ).addClass($class);
+	
+	} )
+
+	$( $id ).mouseout(function() {
+		$( $id ).removeClass($class);
+		$( $id ).removeClass($class);
+
+	} )
+}
+
+zoom("#image10442","animate_lab");
+zoom("#image10453","animate_cnp");
+zoom("#path10467","animate_udaf");
+zoom("#image10464","animate_ga");
+zoom("#image10477","animate_smpl");
+
+
+// $( "#image10442" ).hover(function() {
+// 	$( "#image10442" ).addClass('animate_img');
+// 	$( "#image10442" ).addClass('animate_img');
+	
 // } )
 
-$("#tspan10027").attr('data-toggle', 'modal').attr('data-target', '#modal_activities').attr('class', 'animated').attr('class', 'pulse')
+// $( "#image10442" ).mouseout(function() {
+// 	$( "#image10442" ).removeClass('animate_img');
+// 	$( "#image10442" ).removeClass('animate_img');
 
-$("#tspan10023").attr('data-toggle', 'modal').attr('data-target', '#modal_activities').attr('class', 'animated').attr('class', 'pulse')
+// } )
+
+// $( "#image10453" ).hover(function() {
+// 	$( "#image10442" ).addClass('animate_img');
+// 	$( "#image10442" ).addClass('animate_img');
+	
+// } )
+
+// $( "#image10453" ).mouseout(function() {
+// 	$( "#image10442" ).removeClass('animate_img');
+// 	$( "#image10442" ).removeClass('animate_img');
+
+// } )
+
+// $( "#image10467" ).hover(function() {
+// 	$( "#image10442" ).addClass('animate_img');
+// 	$( "#image10442" ).addClass('animate_img');
+	
+// } )
+
+// $( "#image10467" ).mouseout(function() {
+// 	$( "#image10442" ).removeClass('animate_img');
+// 	$( "#image10442" ).removeClass('animate_img');
+
+// } )
+
+// $( "#image10464" ).hover(function() {
+// 	$( "#image10442" ).addClass('animate_img');
+// 	$( "#image10442" ).addClass('animate_img');
+	
+// } )
+
+// $( "#image10464" ).mouseout(function() {
+// 	$( "#image10442" ).removeClass('animate_img');
+// 	$( "#image10442" ).removeClass('animate_img');
+
+// } )
+
+// $( "#image10477" ).hover(function() {
+// 	$( "#image10442" ).addClass('animate_img');
+// 	$( "#image10442" ).addClass('animate_img');
+	
+// } )
+
+// $( "#image10477" ).mouseout(function() {
+// 	$( "#image10442" ).removeClass('animate_img');
+// 	$( "#image10442" ).removeClass('animate_img');
+
+// } )
+
 
